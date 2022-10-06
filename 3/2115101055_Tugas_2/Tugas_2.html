@@ -1,0 +1,70 @@
+    <html>
+        <head>
+            <title> FORM TUGAS 2 </title> </head>
+            <body>
+            <h2 style="margin: 0px;"><marquee>  Update Biodata Karyawan </marquee></h2>
+            <hr> </hr>
+            <form action="formulir.php" method="post">
+            <table>
+                <tr>
+                    <td> Nama</td>
+                    <td> : </td>
+                    <td><input type="text" name="nama=" value="" placeholder="Tuliskanlah Nama Anda" ></td>
+                </tr>
+                <tr>
+                    <td>Password</td>
+                    <td>:</td>
+                    <td> <input type="password" name="password" placeholder="Tulisakan Password Anda" /></td>
+                    </tr>
+                    <tr>
+                    <td>Jenis Kelamin</td>
+                    <td>:</td>
+                    <!--Gunakan atribut checked untuk memilih radio-->
+                    <td>
+                <input type="radio" name="jenis_kelamin" value="laki-laki" checked /> Laki - Laki
+                <input type="radio" name="jenis_kelamin" value="perempuan" /> Perempuan
+                    </td>
+                    </tr>
+                    <tr>
+                    <td>Hobi</td>
+                    <td>:</td>
+                    <td><input type="checkbox" name="hobi_baca" /> Membaca Buku
+                    <!--Gunakan atribut checked untuk memilih checkbox-->
+                    <input type="checkbox" name="hobi_nulis" checked /> Menulis
+                    <input type="checkbox" name="hobi_mancing" checked /> Memancing
+                    </td>
+                    </tr>
+                    <tr>
+                    <td>Asal Kota</td>
+                    <td>:</td>
+                    <td> <select name="asal_kota">
+                    <option value="Kota Jakarta"> Jakarta</option>
+                    <option>Bandung</option>
+                    <!--Gunakan atribut selected untuk memilih option-->
+                    <option value="Kota Semarang" selected>Semarang</option>
+                    </select>
+                    </td>
+                    </tr>
+                    <tr> 
+                        <td> Komentar</td>
+                        <td> : </td>
+                        <td><textarea name="komentar" rows="5" cols="20"></textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3" align="right"><input type="submit" value="Simpan"> </td>
+                        </tr>
+            </table>
+            </form>
+            <hr>
+            <img src="logo.png" width=64 height =64 align="right">
+            <p style="text-align: right"> David Mario Yohanes Samosir </p>
+            <p style="text-align: right"> 2115101055 </p>
+            <br> 
+            <div style="display:none;">
+                <audio controls autoplay>
+                    <source src="lagu.mp3" type="audio/mpeg" />
+                </audio>
+            </div>
+        </body>
+    </html>
